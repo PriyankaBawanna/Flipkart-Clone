@@ -1,0 +1,54 @@
+.item7-men-ec {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 1489px;
+}
+.image-7-men-ec {
+  margin-top: 35px;
+  margin-left: 43px;
+}
+.texteffect7-men-ec {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 45px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount7-men-ec {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 218px;
+  margin-left: -138px;
+}
+.txt_flied7-men-ec {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -108px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/**********************************/
+#ViewBtn-ec {
+  background: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border: none;
+  margin-left: 1615px;
+  margin-top: -1px;
+  height: 38px;
+  width: 81px;
+  margin-top: 20px;
+}
+/***********************************************/

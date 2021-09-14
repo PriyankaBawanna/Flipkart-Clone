@@ -1,0 +1,332 @@
+.offerdiv {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 374px;
+  width: 75%;
+  margin-top: 400px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+  margin-left: 10px;
+}
+.timer {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  font-size: 15px;
+  font-size: large;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.Deals {
+  font-size: 20px;
+  font-size: large;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.timeclock {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 159px;
+  margin-top: 11px;
+}
+.timedigit {
+  margin-top: 8px;
+  margin-left: 5px;
+  width: 116px;
+}
+#ViewBtn {
+  background: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border: none;
+  margin-left: 980px;
+  margin-top: -1px;
+  height: 38px;
+  width: 81px;
+}
+.item1 {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+}
+.image-1 {
+  margin-top: 25px;
+  margin-left: 43px;
+  transition: transform 0.2s;
+}
+.image-1 :hover {
+  transform: scale(1.2);
+}
+.image-2 :hover {
+  transform: scale(1.2);
+}
+.image-3 :hover {
+  transform: scale(1.2);
+}
+.image-4 :hover {
+  transform: scale(1.2);
+}
+.image-5 :hover {
+  transform: scale(1.2);
+}
+.image-6 :hover {
+  transform: scale(1.2);
+}
+.texteffect {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 30px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -101px;
+}
+.txt_flied {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/*****************************/
+.item2 {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 63px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+.image-2 {
+  margin-top: 25px;
+  margin-left: 43px;
+}
+.texteffect2 {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 30px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -101px;
+}
+.txt_flied2 {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/**********************************/
+/*****************************/
+.item3 {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 500px;
+}
+.image-3 {
+  margin-top: 25px;
+  margin-left: 43px;
+}
+.texteffect3 {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 30px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -101px;
+}
+.txt_flied3 {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -109px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/**********************************/
+/*****************************/
+.item4 {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 750px;
+}
+.image-4 {
+  margin-top: 35px;
+  margin-left: 43px;
+}
+.texteffect4 {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 25px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -130px;
+}
+.txt_flied4 {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -174px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/**********************************/
+/*****************************/
+.item5 {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1000px;
+}
+.image-5 {
+  margin-top: 25px;
+  margin-left: 43px;
+}
+.texteffect5 {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 30px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -101px;
+}
+.txt_flied5 {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/*---------------------------*/
+.item6 {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1185px;
+}
+.image-6 {
+  margin-top: 25px;
+  margin-left: 43px;
+}
+.texteffect6 {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 30px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount6 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -131px;
+}
+.txt_flied6 {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -154px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+.imagepromo {
+  margin-left: 1555px;
+  height: 520px;
+  width: 28%;
+
+  position: relative;
+  margin-top: -34px;
+}
+#photo {
+  width: 28%;
+  margin-left: 2px;
+  height: 400px;
+  width: 100%;
+}

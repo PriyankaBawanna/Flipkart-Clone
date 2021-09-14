@@ -1,0 +1,173 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+nav .mainMenu > li {
+  display: inline-block;
+  margin-left: -5px;
+}
+nav a {
+  margin: 0;
+  text-align: left;
+  padding: 12px 15px 12px 15px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  min-width: 290px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+  display: block;
+}
+nav li:hover > a {
+  background: #2f95c8;
+  cursor: pointer;
+}
+/***code for sub menu **/
+nav .supersubMenu-5 {
+  top: 0;
+  right: 0;
+  transform: translate(100%, 0);
+}
+.supersubMenu-5 {
+  margin-top: -128px;
+}
+nav .subMenu,
+nav .supersubMenu-5 {
+  position: absolute;
+  display: none;
+}
+nav .subMenu li {
+  position: relative;
+}
+nav .mainMenu > li :hover .subMenu {
+  position: absolute;
+  display: none;
+}
+nav .mainMenu > li:hover .subMenu,
+nav .subMenu > li:hover > .supersubMenu-5 {
+  display: block;
+}
+.supersubMenu-5 {
+  margin-top: -128;
+}
+/***code forsupersubMenu-1**/
+
+nav .supersubMenu-1 {
+  top: 0;
+  right: 0;
+  transform: translate(100%, 0);
+}
+.supersubMenu-1 {
+  margin-top: -67px;
+}
+nav .subMenu,
+nav .supersubMenu-1 {
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+nav .subMenu li {
+  position: relative;
+}
+nav .mainMenu > li :hover .subMenu {
+  position: absolute;
+  display: none;
+}
+nav .mainMenu > li:hover .subMenu,
+nav .subMenu > li:hover > .supersubMenu-1 {
+  display: block;
+}
+.supersubMenu-1 {
+  margin-top: -1px;
+}
+
+/*****************/
+nav .supersubMenu-2 {
+  top: 0;
+  right: 0;
+  transform: translate(100%, 0);
+}
+.supersubMenu-2 {
+  margin-top: -39px;
+}
+nav .subMenu,
+nav .supersubMenu-2 {
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+nav .subMenu li {
+  position: relative;
+}
+nav .mainMenu > li :hover .subMenu {
+  position: absolute;
+  display: none;
+}
+nav .mainMenu > li:hover .subMenu,
+nav .subMenu > li:hover > .supersubMenu-2 {
+  display: block;
+}
+.supersubMenu {
+  margin-top: -87px;
+}
+/************/
+nav .supersubMenu-4 {
+  top: 0;
+  right: 0;
+  transform: translate(100%, 0);
+}
+.supersubMenu-4 {
+  margin-top: -87px;
+}
+nav .subMenu,
+nav .supersubMenu-4 {
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+nav .subMenu li {
+  position: relative;
+}
+nav .mainMenu > li :hover .subMenu {
+  position: absolute;
+  display: none;
+}
+nav .mainMenu > li:hover .subMenu,
+nav .subMenu > li:hover > .supersubMenu-4 {
+  display: block;
+}
+.supersubMenu {
+  margin-top: -87px;
+}
+/***code for sub menu **/
+nav .supersubMenu {
+  top: 0;
+  right: 0;
+  transform: translate(100%, 0);
+}
+.supersubMenu {
+  margin-top: -87px;
+}
+nav .subMenu,
+nav .supersubMenu {
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+nav .subMenu li {
+  position: relative;
+}
+nav .mainMenu > li :hover .subMenu {
+  position: absolute;
+  display: none;
+}
+nav .mainMenu > li:hover .subMenu,
+nav .subMenu > li:hover > .supersubMenu {
+  display: block;
+}
+.supersubMenu {
+  margin-top: -87px;
+}

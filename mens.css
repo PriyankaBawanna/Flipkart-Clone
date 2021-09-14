@@ -1,0 +1,414 @@
+.mensfootwear {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 370px;
+  width: 100%;
+  margin-top: 7px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+}
+
+.menscat {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  font-size: 15px;
+  font-size: large;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.manheading {
+  font-size: 20px;
+  font-size: large;
+  text-align: center;
+  margin-top: 27px;
+  margin-left: 27px;
+}
+
+#ViewBtn-men {
+  background: #2874f0;
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border: none;
+  margin-left: 1690px;
+  margin-top: -1px;
+  height: 38px;
+  width: 81px;
+  margin-top: 20px;
+}
+/***********************************************/
+.item1-men {
+  height: 307px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+}
+.image-1-men {
+  margin-top: 25px;
+  margin-left: 43px;
+  transition: transform 0.2s;
+}
+.image-1-men :hover {
+  transform: scale(1.2);
+}
+.image-2-men :hover {
+  transform: scale(1.2);
+}
+.image-3-men :hover {
+  transform: scale(1.2);
+}
+.image-4-men :hover {
+  transform: scale(1.2);
+}
+.image-5-men :hover {
+  transform: scale(1.2);
+}
+.image-6-men :hover {
+  transform: scale(1.2);
+}
+.image-7-men :hover {
+  transform: scale(1.2);
+}
+.image-8-men :hover {
+  transform: scale(1.2);
+}
+.image-7-men-ec:hover {
+  transform: scale(1.2);
+}
+.texteffect-men {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 68px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount-men {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -101px;
+}
+.txt_flied-men {
+  opacity: 0.5px;
+
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/**************************************/
+.item2-men {
+  height: 307px;
+  width: 250px;
+  margin-left: 250px;
+  position: absolute;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+}
+.image-2-men {
+  margin-top: 52px;
+  margin-left: 64px;
+  transition: transform 0.2s;
+}
+.texteffect2-men {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 68px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount2-men {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -101px;
+}
+.txt_flied2-men {
+  opacity: 0.5px;
+
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -130px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/***********************/
+.item3-men {
+  height: 307px;
+  width: 250px;
+
+  position: absolute;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 500px;
+}
+
+.image-3-men {
+  margin-top: 29px;
+  margin-left: 43px;
+}
+.texteffect3-men {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 60px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount3-men {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -101px;
+}
+.txt_flied3-men {
+  opacity: 0.5px;
+
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -109px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/********************************************************/
+/*****************************/
+.item4-men {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 769px;
+}
+.image-4-men {
+  margin-top: 45px;
+  margin-left: 43px;
+}
+.texteffect4-men {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 27px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount4-men {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -130px;
+}
+.txt_flied4-men {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -111px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/**********************************/
+.item5-men {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 769px;
+  margin-left: 1000px;
+}
+.image-5-men {
+  margin-top: 50px;
+  margin-left: 43px;
+}
+.texteffect5-men {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 86px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount5-men {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -130px;
+}
+.txt_flied5-men {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -111px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/**********************************/
+.item6-men {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 1240px;
+}
+.image-6-men {
+  margin-top: 40px;
+  margin-left: 43px;
+}
+.texteffect6-men {
+  position: absolute;
+  margin-top: 201px;
+  margin-left: 31px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount6-men {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -130px;
+}
+.txt_flied6-men {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -111px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/**********************************/
+.item7-men {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 1489px;
+}
+.image-7-men {
+  margin-top: 35px;
+  margin-left: 43px;
+}
+.texteffect7-men {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 9px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount7-men {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 218px;
+  margin-left: -130px;
+}
+.txt_flied7-men {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -74px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}
+/**********************************/
+
+.item8-men {
+  height: 307px;
+  width: 250px;
+  position: absolute;
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 1750px;
+}
+.image-8-men {
+  margin-top: 50px;
+  margin-left: 43px;
+}
+.texteffect8-men {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 42px;
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+}
+.discount8-men {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #388e3c;
+  padding-top: 8px;
+  margin-top: 214px;
+  margin-left: -130px;
+}
+.txt_flied8-men {
+  opacity: 0.5px;
+  padding-top: 8px;
+  margin-top: 245px;
+  margin-left: -111px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #808080;
+}

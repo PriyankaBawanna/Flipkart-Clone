@@ -1,0 +1,100 @@
+.dropbtn {
+  color: #2874f0;
+  font-weight: 500;
+  font-size: larger;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 35px;
+  width: 117px;
+  padding: 5px 40px;
+  border: 1px solid #dbdbdb;
+}
+
+.dropdown-btn {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content-btn {
+  display: none;
+  position: absolute;
+
+  background-color: white;
+  min-width: 290px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 116px;
+  margin-top: 88px;
+}
+
+.dropdown-content-btn a {
+  color: black;
+  padding: 18px 18px;
+  text-decoration: none;
+  display: block;
+  /*  border: .5px solid;*/
+  border-bottom: 0.5px solid;
+  border-color: rgb(245, 238, 238);
+  height: 25px;
+  width: 290px;
+}
+
+.dropdown-btn:hover .dropdown-content-btn {
+  display: block;
+}
+
+.dropdown-content-btn a:hover {
+  background-color: #f1f3f6;
+}
+
+.dropdown-btn:hover .dropdown-content-btn {
+  display: block;
+}
+.new_cst {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2px;
+  font-size: large;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2px;
+  font-size: large;
+  margin-left: 20px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  padding: 2px;
+  font-size: large;
+  margin-left: 5px;
+}
+.material-icons {
+  color: #2874f0;
+}
+
+.profile h4 {
+  margin-top: -27px;
+  margin-left: 39px;
+}
+.new_cst {
+  display: flex;
+  flex-direction: column;
+}
+.sing_up {
+  margin-top: 1px;
+  margin-left: 10px;
+}
+.dro_home-btn {
+  margin-top: -43px;
+  margin-left: 118px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+}
